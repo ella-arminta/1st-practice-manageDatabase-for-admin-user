@@ -1,0 +1,51 @@
+:root{
+  --primaryGreen:#99A799;
+  --secondarYGreen:#D3E4CD;
+  --white:#FEF5ED;
+  --primaryOrange: rgb(255, 191, 134);
+  --secondaryOrange:rgb(254, 210, 170);
+  --brown:#533535;
+}
+body, html {   
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display:table;
+  background: linear-gradient(10deg,var(--primaryGreen),var(--secondarYGreen),var(--primaryOrange));
+}
+body {
+  display:table-cell;
+  vertical-align:middle;
+  
+}
+form {
+  display:table;/* shrinks to fit content */
+  margin:auto;
+  width: 400px;
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.301);
+  padding: 50px;
+  
+}
+.bi-person-fill{
+  text-align: center;
+}
+form h1{
+  text-align: center;
+  padding-bottom: 7px;
+}
+form p{
+  text-align: center;
+  padding-top: 5px;
+}
+form button{
+  float:right;
+  border-style: none;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.form-control{
+  background-color: transparent;
+}

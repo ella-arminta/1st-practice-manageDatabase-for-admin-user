@@ -1,0 +1,45 @@
+body, html {   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+  }
+  body {
+    display:table-cell;
+    vertical-align:middle;
+    background: linear-gradient(10deg,#99A799,#D3E4CD,rgb(255, 191, 134));
+  }
+  form {
+    display:table;/* shrinks to fit content */
+    margin:auto;
+    width: 400px;
+    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.301);
+    padding: 45px;
+  }
+  form h1{
+    text-align: center;
+    padding-bottom: 7px;
+  }
+  form input,form label{
+      padding-bottom: 5px;
+      padding-top: 10px;
+  }
+  .form-control {
+    background-color: transparent;
+    border-style: none;
+    border-bottom:2px solid black;
+    border-radius: 0px;
+  }
+  .form-control:focus{
+    background-color:rgb(254, 210, 170) ;
+  }
+  form button{
+    float:right;
+    border-style: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
